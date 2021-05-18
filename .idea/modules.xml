@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/VillarricaEmporio.iml" filepath="$PROJECT_DIR$/.idea/modules/VillarricaEmporio.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/VillarricaEmporio.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/VillarricaEmporio.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/VillarricaEmporio.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/VillarricaEmporio.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/base/VillarricaEmporio.core.base.iml" filepath="$PROJECT_DIR$/.idea/modules/core/base/VillarricaEmporio.core.base.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/feature/VillarricaEmporio.feature.iml" filepath="$PROJECT_DIR$/.idea/modules/feature/VillarricaEmporio.feature.iml" />
     </modules>
   </component>
