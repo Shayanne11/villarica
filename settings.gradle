@@ -3,3 +3,4 @@ rootProject.name = "VillarricaEmporio"
 include ':feature'
 include ':core'
 include ':core:base'
+include ':core:model'
