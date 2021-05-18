@@ -24,3 +24,32 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+subprojects{
+    afterEvaluate { project ->
+        if (project.plugins.findPlugin('android')?: project.plugins.findPlugin('android-library')){
+            android{
+                compileSdkVersion 30
+                buildToolsVersion "30.0.3"
+
+                defaultConfig{
+                    minSdkVersion 21
+                    targetSdkVersion 30
+                    versionCode 1
+                    versionName "1.0"
+                    testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+                }
+
+
+                compileOptions{
+                    sourceCompatibility JavaVersion.VERSION_1_8
+                    targetCompatibility JavaVersion.VERSION_1_8
+                }
+
+                kotlinOptions{
+                    jvmTarget = '1.8'
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,2 @@
+com/shayanne/feature/BuildConfig.java
+ com.shayanne.feature.BuildConfig
