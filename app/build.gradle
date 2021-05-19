@@ -24,10 +24,16 @@ android {
 }
 
 dependencies {
-    // latest version
+    // latest versions
     def koin_version = '2.2.3'
+    def retrofit_version = "2.9.0"
 
+
+    // modules
     implementation project (':feature')
+    implementation project (':core:network')
+
+    //previously
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.core:core-ktx:1.3.2'
     implementation 'androidx.appcompat:appcompat:1.2.0'
@@ -38,5 +44,8 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    //retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
 
 }
