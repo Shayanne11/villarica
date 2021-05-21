@@ -1,10 +1,10 @@
-package com.shayanne.core.network.dto
+package com.shayanne.core.network
 
 import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface EmporiumService {
-    @GET("v3/2e67e1c9-1c3f-47a9-a064-fdf84d6c0b25")
+    @GET("v3/361b1297-b135-4fda-aa8e-951c96f4a61b")
     suspend fun getRepos(
     @Query("page") pageNumber: Int
     )

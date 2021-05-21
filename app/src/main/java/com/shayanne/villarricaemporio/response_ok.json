@@ -1,8 +1,7 @@
 {
-  "mercearia": {},
+  "mercearia":[],
+  "bebidas_nao_alcool": [],
   "adega":
-  {
-    "alcoolicos":
     [{
       "cod_ref": 1,
       "tipo": "Vinho",
@@ -128,9 +127,7 @@
         "harmonizacao": ["Tortas doces de frutas","Petit four", "Salada de frutas", "Queijos Azuis" ],
         "premiacoes": [],
         "foto_prod": "https://images.vivino.com/thumbs/OTwOFDlRQgCJ7hFNS7fICQ_pb_x600.png"
-      }
-    ],
-    "nao_alcoolicos": [
+      },
       {
         "cod_ref": 8,
         "tipo": "Vinho",
@@ -150,6 +147,5 @@
         "foto_prod": "https://images.vivino.com/thumbs/OTwOFDlRQgCJ7hFNS7fICQ_pb_x600.png"
       }
     ]
-  }
 }
 
