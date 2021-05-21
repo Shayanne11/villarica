@@ -12,6 +12,6 @@ fun networkModule(
         .baseUrl(baseUrl)
         .client(okHttpClient.build())
         .build()
-        .create(GithubService::class.java)
+        .create(EmporiumService::class.java)
 
 }
