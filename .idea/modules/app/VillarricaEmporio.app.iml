@@ -31,7 +31,7 @@
         </compilerSettings>
         <compilerArguments>
           <option name="destination" value="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug" />
-          <option name="classpath" value="$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/cf54cb698c609d757e2b4fadf5a0c878/jetified-core-ktx-1.3.2-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/8b23aa763b269d34946da92b68bd5404/jetified-lifecycle-livedata-ktx-2.3.1-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/d361a7b1b6d8e29c74444c5e56d01bc4/jetified-lifecycle-viewmodel-ktx-2.3.1-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/24e97eb62d95d416ee8a01ae6d8c7017/jetified-lifecycle-livedata-core-ktx-2.3.1-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/ea919ef6ebc9fd4b8c6d2e59e5b61045/jetified-kotlinx-coroutines-android-1.4.1.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/e5e6c9fa90b7213757b61836c541a3c2/jetified-kotlinx-coroutines-core-jvm-1.4.1.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/eb4cd86427fea048e8e78360e0f2f7af/jetified-kotlin-stdlib-1.4.32.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/0ad3c038c2b7fc85bdc75d10f46c9197/jetified-kotlin-stdlib-common-1.4.32.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/75e8e04a1b09e5fd3286c4a620bdc3d2/jetified-annotations-13.0.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/6010f3143b695bf33f4ca6b408a06e57/material-1.3.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/7d23f05c0721098cf1e1014f917d5c5d/constraintlayout-2.0.4-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/a38a2780707a769010c3677ea678d4d3/appcompat-1.2.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/7b57ab9c0f16581f768b20e4262d37f0/jetified-viewpager2-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/d3a7f21b7a67939846ab3812e58f8bb2/fragment-1.1.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/39a209863b4e88099507b931cedddf1d/jetified-appcompat-resources-1.2.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/8e0282605f1b4bd25f3486b1a023ecca/drawerlayout-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/8a3c206b212b59d241f3068671c4f9b9/coordinatorlayout-1.1.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/96c993dc0d3d107acae0c55656491554/dynamicanimation-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/839cbaf4ba4f575b7cea17e4d40ef274/recyclerview-1.1.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/22cef40ffb199260b898446fff276e10/transition-1.2.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/0ba98ab5e1451e6b48d4eb13e2f14264/vectordrawable-animated-1.1.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/9613755f1a79efac7b8dd9d8d72825e2/vectordrawable-1.1.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/8a26266a2e2019c084f538b423aec4a1/viewpager-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/c0405096c371a3fe309d541eb815bd97/legacy-support-core-utils-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/291e822ed5062c2d118cabaab5bf75de/loader-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/b76e7f7a28d91c938dcff81c8347ad4c/jetified-activity-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/c5173cc37e94d672572e0f4d7bc574e8/customview-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/ab7eec8a8b3ca34a06a0366e5ac10060/core-1.3.2-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/3751b22332ce5ea96ef3ac6afd7f00df/cursoradapter-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/4689865873646963abe948145fc8fafc/cardview-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/8ffb14f6b57d0a6f4433c79bf391bc3c/lifecycle-runtime-2.1.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/5fbe31336faf44eb597c302f4b87ec5c/lifecycle-viewmodel-2.3.1-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/33a2e4a4604ab7aec12f153908c46dc2/versionedparcelable-1.1.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/b971c517f9c71b5c9ac384099621079f/lifecycle-livedata-2.3.1-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/b306bf28ab0f531ca3ec33443ee82868/lifecycle-livedata-core-2.3.1-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/89fd72f84a7d5bdf060b0985ad571e08/jetified-savedstate-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.3.1/fc466261d52f4433863642fb40d12441ae274a98/lifecycle-common-2.3.1.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/f699f57a21d4156630b7156748f049ab/core-runtime-2.1.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/5adfa8305587bb1b1f8bdb40d67894cf/interpolator-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/915cae5953eccf2ea4b91b8a06e2083e/documentfile-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/14876d87e15f954b58539623e742e154/localbroadcastmanager-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/3b05de0ab587d9952e6ccb68fb5e251c/print-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar:/Users/shayanne.c.amorim/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/2.0.4/1f001d7db280a89a6c26b26a66eb064bb6d5efeb/constraintlayout-solver-2.0.4.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/f6cea82917d3b234e6a27bf95784de65/jetified-annotation-experimental-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/f6c6715dea6a621361b3499ff89e4bfe/jetified-adapter-rxjava3-2.9.0.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/6c4bb992dbcefb0d22f77cf25d9201a0/jetified-converter-moshi-2.9.0.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/c6a3590158b1bd0a3459c4ec9ab5ad5f/jetified-retrofit-2.9.0.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/fc86041982bd471f12a15a1d3b6d6a6f/jetified-okhttp-3.14.9.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/33789d116d5f694ca0f93b21e721fd83/jetified-moshi-1.8.0.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/09b173c772ac6f45358e4dd158281632/jetified-okio-1.17.2.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/41926326d5ad1dc8cbc797587bd947f6/jetified-rxjava-3.0.0.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/6e8020a3b3f3d4fcd3d867dc73876aa3/jetified-reactive-streams-1.0.3.jar:/Users/shayanne.c.amorim/Documents/2021/villarica/feature/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/shayanne.c.amorim/Documents/2021/villarica/core/network/build/.transforms/f6f7403c39a410212803efc1d8736991/jetified-network.jar:/Users/shayanne.c.amorim/Library/Android/sdk/platforms/android-30/android.jar:/Users/shayanne.c.amorim/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar" />
+          <option name="classpath" value="$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/cf54cb698c609d757e2b4fadf5a0c878/jetified-core-ktx-1.3.2-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/8b23aa763b269d34946da92b68bd5404/jetified-lifecycle-livedata-ktx-2.3.1-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/d361a7b1b6d8e29c74444c5e56d01bc4/jetified-lifecycle-viewmodel-ktx-2.3.1-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/c17a22787bb0a23bd5447d24f37b0cc3/jetified-moshi-kotlin-1.12.0.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/24e97eb62d95d416ee8a01ae6d8c7017/jetified-lifecycle-livedata-core-ktx-2.3.1-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/ea919ef6ebc9fd4b8c6d2e59e5b61045/jetified-kotlinx-coroutines-android-1.4.1.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/6c4bb992dbcefb0d22f77cf25d9201a0/jetified-converter-moshi-2.9.0.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/2e39d5dc9ade3478c680e864980d3c34/jetified-moshi-1.12.0.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/b0a49a87ae33532936f5975fca7aa9f0/jetified-kotlin-reflect-1.4.31.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/e5e6c9fa90b7213757b61836c541a3c2/jetified-kotlinx-coroutines-core-jvm-1.4.1.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/c6a3590158b1bd0a3459c4ec9ab5ad5f/jetified-retrofit-2.9.0.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/fc86041982bd471f12a15a1d3b6d6a6f/jetified-okhttp-3.14.9.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/db230820d7fce39779fe63ea41f84298/jetified-okio-jvm-2.10.0.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/eb4cd86427fea048e8e78360e0f2f7af/jetified-kotlin-stdlib-1.4.32.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/0ad3c038c2b7fc85bdc75d10f46c9197/jetified-kotlin-stdlib-common-1.4.32.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/75e8e04a1b09e5fd3286c4a620bdc3d2/jetified-annotations-13.0.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/6010f3143b695bf33f4ca6b408a06e57/material-1.3.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/7d23f05c0721098cf1e1014f917d5c5d/constraintlayout-2.0.4-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/a38a2780707a769010c3677ea678d4d3/appcompat-1.2.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/7b57ab9c0f16581f768b20e4262d37f0/jetified-viewpager2-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/d3a7f21b7a67939846ab3812e58f8bb2/fragment-1.1.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/39a209863b4e88099507b931cedddf1d/jetified-appcompat-resources-1.2.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/8e0282605f1b4bd25f3486b1a023ecca/drawerlayout-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/8a3c206b212b59d241f3068671c4f9b9/coordinatorlayout-1.1.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/96c993dc0d3d107acae0c55656491554/dynamicanimation-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/839cbaf4ba4f575b7cea17e4d40ef274/recyclerview-1.1.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/22cef40ffb199260b898446fff276e10/transition-1.2.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/0ba98ab5e1451e6b48d4eb13e2f14264/vectordrawable-animated-1.1.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/9613755f1a79efac7b8dd9d8d72825e2/vectordrawable-1.1.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/8a26266a2e2019c084f538b423aec4a1/viewpager-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/c0405096c371a3fe309d541eb815bd97/legacy-support-core-utils-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/291e822ed5062c2d118cabaab5bf75de/loader-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/b76e7f7a28d91c938dcff81c8347ad4c/jetified-activity-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/c5173cc37e94d672572e0f4d7bc574e8/customview-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/ab7eec8a8b3ca34a06a0366e5ac10060/core-1.3.2-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/3751b22332ce5ea96ef3ac6afd7f00df/cursoradapter-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/4689865873646963abe948145fc8fafc/cardview-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/8ffb14f6b57d0a6f4433c79bf391bc3c/lifecycle-runtime-2.1.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/5fbe31336faf44eb597c302f4b87ec5c/lifecycle-viewmodel-2.3.1-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/33a2e4a4604ab7aec12f153908c46dc2/versionedparcelable-1.1.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/b971c517f9c71b5c9ac384099621079f/lifecycle-livedata-2.3.1-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/b306bf28ab0f531ca3ec33443ee82868/lifecycle-livedata-core-2.3.1-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/89fd72f84a7d5bdf060b0985ad571e08/jetified-savedstate-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.3.1/fc466261d52f4433863642fb40d12441ae274a98/lifecycle-common-2.3.1.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/f699f57a21d4156630b7156748f049ab/core-runtime-2.1.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/5adfa8305587bb1b1f8bdb40d67894cf/interpolator-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/915cae5953eccf2ea4b91b8a06e2083e/documentfile-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/14876d87e15f954b58539623e742e154/localbroadcastmanager-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/3b05de0ab587d9952e6ccb68fb5e251c/print-1.0.0-api.jar:/Users/shayanne.c.amorim/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar:/Users/shayanne.c.amorim/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/2.0.4/1f001d7db280a89a6c26b26a66eb064bb6d5efeb/constraintlayout-solver-2.0.4.jar:/Users/shayanne.c.amorim/.gradle/caches/transforms-2/files-2.1/f6cea82917d3b234e6a27bf95784de65/jetified-annotation-experimental-1.0.0-api.jar:/Users/shayanne.c.amorim/Documents/2021/villarica/feature/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/shayanne.c.amorim/Documents/2021/villarica/core/network/build/.transforms/f6f7403c39a410212803efc1d8736991/jetified-network.jar:/Users/shayanne.c.amorim/Library/Android/sdk/platforms/android-30/android.jar:/Users/shayanne.c.amorim/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar" />
           <option name="noStdlib" value="true" />
           <option name="noReflect" value="true" />
           <option name="moduleName" value="app_debug" />
@@ -81,29 +81,20 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:core:1.3.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:monitor:1.3.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.espresso:espresso-idling-resource:3.3.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.4.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.4.32" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.4.32" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.collection:collection:1.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.3.1" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.constraintlayout:constraintlayout-solver:2.0.4" level="project" />
     <orderEntry type="module-library">
-      <library name="Gradle: com.squareup.retrofit2:adapter-rxjava3:2.9.0">
+      <library name="Gradle: com.squareup.moshi:moshi-kotlin:1.12.0">
         <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava3/2.9.0/fab8dc7defa024056fcd244980d1ca99f86d55b7/adapter-rxjava3-2.9.0.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi-kotlin/1.12.0/b320f489271fbad515583ae0e3b4349578ca91a7/moshi-kotlin-1.12.0.jar!/" />
         </CLASSES>
         <JAVADOC>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava3/2.9.0/81ce0ce4183e293517a492892ea1a787f1c821c4/adapter-rxjava3-2.9.0-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi-kotlin/1.12.0/5851085839674f38a82a5aede29119a8eb6da9d4/moshi-kotlin-1.12.0-javadoc.jar!/" />
         </JAVADOC>
         <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava3/2.9.0/b902dcb8bed4b853e3d43961e38054ebcd9989fe/adapter-rxjava3-2.9.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi-kotlin/1.12.0/a4dcdb1fd17501bf90a043e80eca954c28fb754b/moshi-kotlin-1.12.0-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.1" level="project" />
     <orderEntry type="module-library">
       <library name="Gradle: com.squareup.retrofit2:converter-moshi:2.9.0">
         <CLASSES>
@@ -117,6 +108,33 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: com.squareup.moshi:moshi:1.12.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi/1.12.0/acd95d4d815f2752e6507e29e92b258c1323c38d/moshi-1.12.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi/1.12.0/82500ab067d7d071b8437ccdc62a6a6727ee71bd/moshi-1.12.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi/1.12.0/ab8ddc223bc7a800efbea6e9332b1d91fcc7d8b9/moshi-1.12.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.4.31">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.4.31/63db9d66c3d20f7b8f66196e7ba86969daae8b8a/kotlin-reflect-1.4.31.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.4.31/5b8f86fea035328fc9e8c660773037a3401ce25f/kotlin-reflect-1.4.31-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.4.31/d4e46e5cbf82587049fbd9193a5d205c9d491a15/kotlin-reflect-1.4.31-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.4.1" level="project" />
     <orderEntry type="module-library">
       <library name="Gradle: com.squareup.retrofit2:retrofit:2.9.0">
         <CLASSES>
@@ -143,58 +161,15 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
-      <library name="Gradle: com.squareup.moshi:moshi:1.8.0">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi/1.8.0/752e7b187599d3ccb174d00ba7235e29add736be/moshi-1.8.0.jar!/" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi/1.8.0/d17d715f4697bc7eae145ba5092a724d2fec24fb/moshi-1.8.0-javadoc.jar!/" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi/1.8.0/b6fe06b040c94e2453022197f74b5776f2867ced/moshi-1.8.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="Gradle: com.squareup.okio:okio:1.17.2">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.17.2/78c7820b205002da4d2d137f6f312bd64b3d6049/okio-1.17.2.jar!/" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.17.2/b223e35cf99bb8c3d2a5b369b6b52093a6a750c2/okio-1.17.2-javadoc.jar!/" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.17.2/331ecaeba2fd87c06a0766e8ebe718e1e294f27d/okio-1.17.2-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="Gradle: io.reactivex.rxjava3:rxjava:3.0.0">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava3/rxjava/3.0.0/52e38d1aef8f3638806844a644f7b126f99c9aca/rxjava-3.0.0.jar!/" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava3/rxjava/3.0.0/844e8ff3db22c3952db09f4ba1f061a40df45fec/rxjava-3.0.0-javadoc.jar!/" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava3/rxjava/3.0.0/5da78f7e6c4706d9214c17f1a3c3678955f15739/rxjava-3.0.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="Gradle: org.reactivestreams:reactive-streams:1.0.3">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.3/d9fb7a7926ffa635b3dcaa5049fb2bfa25b3e7d0/reactive-streams-1.0.3.jar!/" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.3/a0b30dc9ef9568da72ee6ab2382bf2ce9cfc6270/reactive-streams-1.0.3-javadoc.jar!/" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.3/e6ffdff8c438d959376c91d94b319457354a84c5/reactive-streams-1.0.3-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:2.10.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.4.32" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.4.32" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.collection:collection:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.3.1" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.constraintlayout:constraintlayout-solver:2.0.4" level="project" />
     <orderEntry type="library" name="Gradle: androidx.core:core-ktx:1.3.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-ktx:2.3.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1@aar" level="project" />

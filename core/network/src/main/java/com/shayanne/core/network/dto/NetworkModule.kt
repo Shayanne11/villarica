@@ -3,6 +3,7 @@ package com.shayanne.core.network
 import com.shayanne.core.network.adapter.RepositoryAdapter
 import com.shayanne.core.network.dto.EmporiumService
 import com.squareup.moshi.Moshi
+import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
