@@ -1,4 +1,4 @@
-package com.shayanne.core.network
+package com.shayanne.core.network.dto
 
 import retrofit2.http.GET
 import retrofit2.http.Query
