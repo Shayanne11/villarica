@@ -33,6 +33,8 @@ dependencies {
     // modules
     implementation project (':feature')
     implementation project (':core:network')
+    implementation project (':core:model')
+    implementation project (':core:base')
 
     //previously
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
