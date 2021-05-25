@@ -2,24 +2,35 @@ plugins {
     id 'kotlin'
 }
 
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
 dependencies {
+    implementation project(path: ':core:model')
+
     // latest versions
     //obs: verificar com o wesley se tem como colocar as versões em um lugar só
+    def koin_version = '2.2.3'
     def retrofit_version = "2.9.0"
     def moshi_version = "2.9.0"
 
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    // modules
+
+    implementation project (':core:model')
+
+    // Já estavam aqui
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.5.0"
     implementation 'androidx.core:core-ktx:1.3.2'
-    testImplementation 'junit:junit:4.+'
+    testImplementation 'junit:junit:4.13.2'
 
     //retrofit and moshi
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
-    //implementation 'com.squareup.retrofit2:adapter-rxjava3:2.9.0'
     implementation "com.squareup.retrofit2:converter-moshi:$moshi_version"
     implementation  ("com.squareup.moshi:moshi-kotlin:1.12.0")
-    //kapt "com.squareup.moshi:moshi-kotlin-codegen:1.12.0"
 
-
-
+    // Koin for Kotlin
+    implementation "org.koin:koin-core:1.5.0"
 
 }

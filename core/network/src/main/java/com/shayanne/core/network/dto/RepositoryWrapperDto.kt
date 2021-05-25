@@ -3,12 +3,11 @@ package com.shayanne.core.network.dto
 import com.squareup.moshi.Json
 
 internal data class RepositoryWrapperDto (
-    @Json(name = "adega") val wineHouse: List<RepositoryAlcoholDto>
+    @Json(name = "adega") val wineHouse: List<RepositoryWineDto>
     // @Json(name = "bebidas_nao_alcool") val nonAlcoolBeverages:List<RepositoryNonAlcoolDto>,
         )
 
-
-internal data class RepositoryAlcoholDto(
+internal data class RepositoryWineDto(
     @Json(name = "cod_ref") val id: Int,
     @Json(name = "tipo") val type: String,
     @Json(name = "subtipo") val subtype: String,
