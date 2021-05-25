@@ -10,13 +10,15 @@ import com.squareup.moshi.FromJson
 
 internal class RepositoryAdapter  {
     @FromJson
-    fun repositoryWrapperDtoFromWrapperModel( wrapperDto: RepositoryWrapperDto)= RepositoryWrapper(
+    fun repositoryWrapperDtoFromWrapperModel(
+        wrapperDto: RepositoryWrapperDto)= RepositoryWrapper(
         wrapperDto.wineHouse.map {
             repositoryDtoToModel(it)
         }
     )
 
-    internal fun repositoryDtoToModel(repositoryDto: RepositoryAlcoholDto): Repository {
+    internal fun repositoryDtoToModel(
+        repositoryDto: RepositoryAlcoholDto): Repository {
         val repository = Repository(
             id = repositoryDto.id,
             type = repositoryDto.type,
