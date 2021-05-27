@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="11" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="villarica.app" target="11" />
+      <module name="villarica.core.base" target="11" />
+      <module name="villarica.core.database" target="11" />
+      <module name="villarica.core.model" target="11" />
+      <module name="villarica.feature" target="11" />
+      <module name="VillarricaEmporio.app" target="11" />
+      <module name="VillarricaEmporio.core.base" target="11" />
+      <module name="VillarricaEmporio.core.database" target="11" />
+      <module name="VillarricaEmporio.core.model" target="11" />
+      <module name="VillarricaEmporio.feature" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
