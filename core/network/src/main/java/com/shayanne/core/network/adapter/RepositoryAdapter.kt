@@ -3,7 +3,7 @@ package com.shayanne.core.network.adapter
 
 import com.shayanne.core.model.Repository
 import com.shayanne.core.model.RepositoryWrapper
-import com.shayanne.core.network.dto.RepositoryAlcoholDto
+import com.shayanne.core.network.dto.RepositoryWineDto
 import com.shayanne.core.network.dto.RepositoryWrapperDto
 import com.squareup.moshi.FromJson
 
@@ -18,7 +18,7 @@ internal class RepositoryAdapter  {
     )
 
     internal fun repositoryDtoToModel(
-        repositoryDto: RepositoryAlcoholDto): Repository {
+        repositoryDto: RepositoryWineDto): Repository {
         val repository = Repository(
             id = repositoryDto.id,
             type = repositoryDto.type,
