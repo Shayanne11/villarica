@@ -26,6 +26,7 @@ android {
 dependencies {
     // latest versions
     def koin_version = '2.2.3'
+    def koin_version_core = '2.2.2'
     def retrofit_version = "2.9.0"
     def moshi_version = "2.9.0"
 
@@ -55,5 +56,9 @@ dependencies {
 
     // Koin Android ViewModel features
     implementation "org.koin:koin-android-viewmodel:$koin_version"
+    // Koin for Kotlin
+    implementation "org.koin:koin-core:$koin_version_core"
+
+
 
 }
