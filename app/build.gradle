@@ -21,6 +21,9 @@ android {
         }
     }
 
+    viewBinding{
+        enabled = true
+    }
 }
 
 dependencies {
@@ -52,7 +55,6 @@ dependencies {
 
     //retrofit and moshi
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
-    //implementation 'com.squareup.retrofit2:adapter-rxjava3:2.9.0'
     implementation "com.squareup.retrofit2:converter-moshi:$moshi_version"
     implementation("com.squareup.moshi:moshi-kotlin:1.12.0")
 
