@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.lifecycle.Observer
 import com.shayanne.villarricaemporio.R
 import com.shayanne.villarricaemporio.databinding.HomeFragmentBinding
 
@@ -25,7 +26,7 @@ class HomeFragment : Fragment() {
 
     private lateinit var viewModel: HomeViewModel
 
-    //onCreateView inicia o lifecycle e desenha a view
+    //onCreateView é um método de lifecycle do fragment e inicia o lifecycle do fragment e desenha a view
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -40,12 +41,28 @@ class HomeFragment : Fragment() {
         return binding.root
     }
 
+    // onViewCreated é um método de lifecycle do fragment e o usaremos para passar o observe do fragment para ver o LiveData
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        //observer do LiveData
+        val viewStateObserver = Observer<HomeViewModel>{ viewState ->
+
+            // Update de UI
+
+        }
+    }
+
+
+
+    // onDestroyView é um método de lifecycle do fragment, ele destroi a view para que libere a memoria e melhore a performance
     override fun onDestroyView() {
         super.onDestroyView()
+        // o binding deve ser nulo quando formos destruir a view
         _binding = null
     }
 
-    //onActivityCreated para a lógica vinda da viewmodel? para que o app use depois de desenhar o app?
+    //onActivityCreated para a lógica vinda da viewmodel? para que o app use depois de desenhar o app?, ele é um método do fragment
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProvider(this).get(HomeViewModel::class.java)
