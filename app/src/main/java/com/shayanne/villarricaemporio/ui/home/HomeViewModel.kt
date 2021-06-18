@@ -12,4 +12,6 @@ class HomeViewModel : ViewModel() {
     private val _viewState: MutableLiveData<Repository> = MutableLiveData() // LiveData privado para usar só nesta classe
     val viewState: LiveData< Repository> = _viewState // LiveData público que será chamado em outros locais
 
+
+
 }

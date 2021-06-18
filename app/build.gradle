@@ -30,6 +30,7 @@ dependencies {
     // latest versions
     def retrofit_version = "2.9.0"
     def moshi_version = "2.9.0"
+    def koin_version = '2.2.3'
 
 
     // modules
@@ -54,6 +55,13 @@ dependencies {
     //viewmodel
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
+
+    // Koin for Kotlin
+    implementation "io.insert-koin:koin-core:$koin_version"
+    // Koin for Android
+    implementation "io.insert-koin:koin-android:$koin_version"
+    // Koin Android ViewModel features
+    implementation "io.insert-koin:koin-android-viewmodel:$koin_version"
 
 
     //retrofit and moshi

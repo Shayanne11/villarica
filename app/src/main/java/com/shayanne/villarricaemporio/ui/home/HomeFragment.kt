@@ -7,10 +7,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
-import com.shayanne.villarricaemporio.R
 import com.shayanne.villarricaemporio.databinding.HomeFragmentBinding
+import org.koin.android.ext.android.get
+import org.koin.android.ext.android.inject
 
 class HomeFragment : Fragment() {
+
 
     //_binding é uma variável privada, que será usada somente neste fragment e é nula, por isso tem ?=null
     // o _binding existe pois precisamos de um binding nulo para passar em apenas alguns metodos da lifecycle
@@ -24,7 +26,9 @@ class HomeFragment : Fragment() {
         fun newInstance() = HomeFragment()
     }
 
-    private lateinit var viewModel: HomeViewModel
+    //instancia a viewmodel deste fragment com injeção de dependencia com koin
+    private val viewModel: HomeViewModel by inject()
+
 
     //onCreateView é um método de lifecycle do fragment e inicia o lifecycle do fragment e desenha a view
     override fun onCreateView(
@@ -45,12 +49,18 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        //observer do LiveData
+        //observer do State/Estado
+        //o que ele faz?
         val viewStateObserver = Observer<HomeViewModel>{ viewState ->
 
             // Update de UI
 
         }
+
+        //observer dos Values?
+        //viewLifecycleOwner observa o ciclo de vida do fragment?
+        //o que ele faz? e pq quebrou?
+      // viewModel.viewState.observe(viewLifecycleOwner,viewStateObserver)
     }
 
 
