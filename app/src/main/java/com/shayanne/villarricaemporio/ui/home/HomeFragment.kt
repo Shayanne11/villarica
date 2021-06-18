@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
+import com.shayanne.core.model.Repository
 import com.shayanne.villarricaemporio.databinding.HomeFragmentBinding
 import org.koin.android.ext.android.get
 import org.koin.android.ext.android.inject
@@ -49,18 +50,17 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        //observer do State/Estado
-        //o que ele faz?
-        val viewStateObserver = Observer<HomeViewModel>{ viewState ->
+        //observer do State/Estado  , aqui virão os dados da viewmodel que foram alterados
+        val viewStateObserver = Observer<Repository>{ repository ->
 
             // Update de UI
 
         }
-
+        viewModel.getRepositories()
         //observer dos Values?
         //viewLifecycleOwner observa o ciclo de vida do fragment?
         //o que ele faz? e pq quebrou?
-      // viewModel.viewState.observe(viewLifecycleOwner,viewStateObserver)
+       viewModel.viewState.observe(viewLifecycleOwner,viewStateObserver)
     }
 
 
@@ -72,11 +72,6 @@ class HomeFragment : Fragment() {
         _binding = null
     }
 
-    //onActivityCreated para a lógica vinda da viewmodel? para que o app use depois de desenhar o app?, ele é um método do fragment
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(HomeViewModel::class.java)
-        // TODO: Use the ViewModel
-    }
+
 
 }
