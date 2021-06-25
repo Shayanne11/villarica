@@ -57,11 +57,11 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
 
     // Koin for Kotlin
-    implementation "io.insert-koin:koin-core:$koin_version"
+    implementation "org.koin:koin-core:$koin_version"
     // Koin for Android
-    implementation "io.insert-koin:koin-android:$koin_version"
+    implementation "org.koin:koin-android:$koin_version"
     // Koin Android ViewModel features
-    implementation "io.insert-koin:koin-android-viewmodel:$koin_version"
+    implementation "org.koin:koin-android-viewmodel:$koin_version"
 
 
     //retrofit and moshi
