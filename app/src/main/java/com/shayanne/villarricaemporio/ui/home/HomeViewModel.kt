@@ -4,15 +4,14 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.shayanne.core.model.Repository
-import com.shayanne.core.model.RepositoryWrapper
 import com.shayanne.core.network.EmporiumService
+import com.shayanne.villarricaemporio.Logger
 import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 
-
-
-
-class HomeViewModel (private val emporiumService: EmporiumService/*private val backendService: BackendService*/): ViewModel() {
+class HomeViewModel (private val emporiumService: EmporiumService, private val logger: Logger): ViewModel() {
 
     // TODO: Implement the ViewModel (tem 2 partes: a parte do koin e a parte do metodo loadPage (fun loadPage))
 
@@ -22,29 +21,25 @@ class HomeViewModel (private val emporiumService: EmporiumService/*private val b
     val viewState: LiveData< Repository> = _viewState // LiveData público que será chamado em outros locais
 
     fun loadPage(pageNumber:Int){
-        emporiumService.getRepos(pageNumber).enqueue()
+        emporiumService.getRepos(pageNumber).enqueue(object: Callback<Repository>{
+            override fun onResponse(call: Call<Repository>, response: Response<Repository>) {
+                if (response.isSuccessful){
+                    logger.logMessage("HomeActivity-loadMore","isSuccessful,pageNumber:$pageNumber")
+                    response.body().let { _viewState.postValue() }
+                }
+            }
+
+            override fun onFailure(call: Call<Repository>, t: Throwable) {
+                TODO("Not yet implemented")
+            }
+        })
 
     }
 
-    /* fun getRepositories() {
-   val repository =  backendService.getRepositories()
-
-    _viewState.value = repository
-}*/
 
 
 
 }
 
-private fun <T> Call<T>.enqueue() {
-    TODO("Not yet implemented")
-}
 
 
-
-//poderia ser o interface retrofit
-//não tem codigo,
-interface  BackendService{
-   fun getRepositories():Repository
-
-}
