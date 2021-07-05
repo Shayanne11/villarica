@@ -56,11 +56,11 @@ class HomeFragment : Fragment() {
             // Update de UI
 
         }
-        viewModel.getRepositories()
+     //   viewModel.getRepositories()
         //observer dos Values?
         //viewLifecycleOwner observa o ciclo de vida do fragment?
         //o que ele faz? e pq quebrou?
-       viewModel.viewState.observe(viewLifecycleOwner,viewStateObserver)
+   //    viewModel.viewState.observe(viewLifecycleOwner,viewStateObserver)
     }
 
 

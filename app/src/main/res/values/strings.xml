@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">VillarricaEmporio</string>
+    <string name="error_network_request_failed">Ocorreu um erro ao processar sua requisição. Tentar novamente?</string>
+    <string name="error_unknown">Erro desconhecido</string>
 </resources>

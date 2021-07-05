@@ -13,6 +13,7 @@ class KoinApp : Application(){
             // Start Koin
             startKoin{
                 androidLogger()
+                printLogger()
                 androidContext(this@KoinApp)
                 modules(listOf( networkModule,homeModule))
             }
