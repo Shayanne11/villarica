@@ -27,14 +27,14 @@ internal class RepositoryAdapter  {
             harvest = repositoryDto.harvest,
             volume = repositoryDto.volume,
             contentAlcohol = repositoryDto.contentAlcohol,
-            price = repositoryDto.price,
+            price = 0f,
             country = repositoryDto.country,
             region = repositoryDto.region,
             manufacturer = repositoryDto.manufacturer,
             closureType = repositoryDto.closureType,
-            grapes = repositoryDto.grapes,
-            winePairing = repositoryDto.winePairing,
-            awards = repositoryDto.awards,
+            grapes = "",
+            winePairing = "",
+            awards = "",
             picture = repositoryDto.picture
         )
         return repository

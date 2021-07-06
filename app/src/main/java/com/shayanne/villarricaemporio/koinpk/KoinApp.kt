@@ -12,8 +12,9 @@ class KoinApp : Application(){
             super.onCreate()
             // Start Koin
             startKoin{
-                androidLogger()
-                printLogger()
+                // wes: Comentei isso aqui. Aparentemente tem um bug
+//                androidLogger()
+//                printLogger()
                 androidContext(this@KoinApp)
                 modules(listOf( networkModule,homeModule))
             }

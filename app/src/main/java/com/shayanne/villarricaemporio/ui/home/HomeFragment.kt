@@ -6,8 +6,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.Observer
 import com.shayanne.core.model.Repository
+import com.shayanne.core.model.ResponseViewState
 import com.shayanne.villarricaemporio.databinding.HomeFragmentBinding
 import org.koin.android.ext.android.get
 import org.koin.android.ext.android.inject
@@ -51,18 +53,30 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         //observer do State/Estado  , aqui virão os dados da viewmodel que foram alterados
-        val viewStateObserver = Observer<Repository>{ repository ->
-
+        // wes:Tive que mudar o tipo aqui pq a ViewModel emite ResponseViewState
+        val viewStateObserver = Observer<ResponseViewState> { viewState ->
             // Update de UI
-
+            // wes: Tratei mudanças de estados da ViewModel aqui
+            when (viewState) {
+                is ResponseViewState.Error -> {
+                    AlertDialog.Builder(requireActivity())
+                        .setMessage(getString(viewState.messageError))
+                        .show()
+                }
+                is ResponseViewState.Success -> {
+                    val wineDescriptions = viewState.list.joinToString("\n") { it.description }
+                    binding.message.text = wineDescriptions
+                }
+            }
         }
-     //   viewModel.getRepositories()
+        // wes: Chamei o método para carregar páginas
+        viewModel.loadPage(1)
         //observer dos Values?
         //viewLifecycleOwner observa o ciclo de vida do fragment?
         //o que ele faz? e pq quebrou?
-   //    viewModel.viewState.observe(viewLifecycleOwner,viewStateObserver)
+        // wes: Voltei o código para observar a ViewModel
+        viewModel.viewState.observe(viewLifecycleOwner, viewStateObserver)
     }
-
 
 
     // onDestroyView é um método de lifecycle do fragment, ele destroi a view para que libere a memoria e melhore a performance
@@ -71,7 +85,6 @@ class HomeFragment : Fragment() {
         // o binding deve ser nulo quando formos destruir a view
         _binding = null
     }
-
 
 
 }

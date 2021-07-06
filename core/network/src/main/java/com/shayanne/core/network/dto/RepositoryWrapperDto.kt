@@ -15,14 +15,14 @@ internal data class RepositoryWineDto(
     @Json(name = "safra") val harvest: Int,
     @Json(name = "volume") val volume: String,
     @Json(name = "teor_alcool") val contentAlcohol:String,
-    @Json(name = "vlr_unid") val price: Float,
+    @Json(name = "vlr_unid") val price: String, // wes:ERRO DE PARSING
     @Json(name = "pais_prod") val country: String,
     @Json(name = "regiao_prod") val region: String,
     @Json(name = "produtor") val manufacturer: String,
     @Json(name = "tipo_fechamento") val closureType: String,
-    @Json(name = "uvas") val grapes: String,
-    @Json(name = "harmonizacao") val winePairing: String,
-    @Json(name = "premiacoes") val awards: String,
+//    @Json(name = "uvas") val grapes: String, // wes:ERRO DE PARSING
+//    @Json(name = "harmonizacao") val winePairing: String, // wes:ERRO DE PARSING
+//    @Json(name = "premiacoes") val awards: String,// wes:ERRO DE PARSING
     @Json(name = "foto_prod") val picture: String
 )
 

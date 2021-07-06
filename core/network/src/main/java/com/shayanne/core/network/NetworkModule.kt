@@ -9,25 +9,27 @@ import org.koin.dsl.module
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 
-const val BASE_URL ="https://run.mocky.io/"
+const val BASE_URL = "https://run.mocky.io/"
 
-val  networkModule = module {
-    val okHttpClient = OkHttpClient.Builder()
+// wes: Tive que mudar o módulo adicionando o retrofit dentro do single, senão o módulo não funciona
+val networkModule = module {
+    single {
+        val okHttpClient = OkHttpClient.Builder()
 
-    okHttpClient.addInterceptor(HttpLoggingInterceptor())
+        okHttpClient.addInterceptor(HttpLoggingInterceptor())
 
-    val moshi = Moshi.Builder()
-        .add(RepositoryAdapter())
-        .addLast(KotlinJsonAdapterFactory())
-        .build()
+        val moshi = Moshi.Builder()
+            .add(RepositoryAdapter())
+            .addLast(KotlinJsonAdapterFactory())
+            .build()
 
 
-    Retrofit.Builder()
-        .baseUrl(BASE_URL)
-        .client(okHttpClient.build())
-        .addConverterFactory(MoshiConverterFactory.create(moshi))
-        .build()
-        .create(EmporiumService::class.java)
-
+        Retrofit.Builder()
+            .baseUrl(BASE_URL)
+            .client(okHttpClient.build())
+            .addConverterFactory(MoshiConverterFactory.create(moshi))
+            .build()
+            .create(EmporiumService::class.java)
+    }
 }
 
