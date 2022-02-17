@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "573960996540",
+    "project_id": "villarica-50d58",
+    "storage_bucket": "villarica-50d58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573960996540:android:8638ffac795cc8c35bf2b9",
+        "android_client_info": {
+          "package_name": "com.shayanne.villarricaemporio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573960996540-uh5rogksr57p9tg4b5gith0m22o2cpjb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxR8MTjKePPy-R7JaDsCOHGu5MbWr-L1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573960996540-uh5rogksr57p9tg4b5gith0m22o2cpjb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
