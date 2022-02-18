@@ -13,4 +13,14 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    //materials BOM, lib que atualiza versões como a do firebase,
+    // ela nao atualiza por sugestão do gradle
+    //vc tera que procurar a versao mais atual dela
+    // Import the BoM for the Firebase platform
+    implementation platform('com.google.firebase:firebase-bom:29.0.4')
+
+    //firebase
+    implementation platform('com.google.firebase:firebase-bom')
+    implementation 'com.google.firebase:firebase-analytics-ktx'
 }
